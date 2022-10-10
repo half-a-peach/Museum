@@ -3,6 +3,6 @@
 
 
 # Screens
-(https://github.com/half-a-peach/Museum/raw/master/src/1.png)
-(https://github.com/half-a-peach/Museum/raw/master/src/2.png)
-(https://github.com/half-a-peach/Museum/raw/master/src/3.png)
+<img src="https://github.com/half-a-peach/Museum/src/1.png">
+<img src="https://github.com/half-a-peach/Museum/src/2.png">
+<img src="https://github.com/half-a-peach/Museum/src/3.png">
