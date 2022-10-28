@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"                         
+             x:Class="HermitageGuide.MainPage" BackgroundColor="#FFFFFF" >
+
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Image Source="logo.png" />
+            </Grid>
+
+            <Grid Grid.Row="1">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                </Grid.RowDefinitions>
+
+                <Frame BackgroundColor="#263238" Margin="18, 14" HeightRequest="180" WidthRequest="324" Grid.Row="0" CornerRadius="12" Padding="16,16,16,14" MinimumHeightRequest="180" MinimumWidthRequest="324">
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="212*" />
+                            <ColumnDefinition Width="112*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Row="0" Text="Экспонаты" FontSize="24" FontFamily="Roboto" TextColor="#FFFFFF" FontAttributes="Bold" />
+                            <Label Grid.Row="1" Text="Постоянные экспозиции и новые коллекции музея" FontSize="14" FontFamily="Roboto" TextColor="#FFFFFF" FontAttributes="Bold" />
+                            <Button Grid.Row="2" Text = "Посмотреть" FontSize="Medium" BorderWidth="1" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Clicked="ExhibitionPageOpen" CornerRadius="8" BackgroundColor="#263238" BorderColor="#FFFFFF" TextColor="#FFFFFF" />
+
+                        </Grid>
+
+                        <Frame Grid.Column="1" Padding="0" CornerRadius="8" Margin="16,0,0,0">
+                            <Image Source="objects.jpg" Aspect="AspectFill" />
+                        </Frame>
+
+                    </Grid>
+
+                </Frame>
+
+                <Frame BackgroundColor="#1B5F5B" Margin="18, 14" HeightRequest="180" WidthRequest="324" Grid.Row="1" CornerRadius="12" Padding="16,16,16,14">
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="212*" />
+                            <ColumnDefinition Width="112*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Row="0" Text="События" FontSize="24" FontFamily="Roboto" TextColor="#FFFFFF" FontAttributes="Bold" />
+                            <Label Grid.Row="1" Text="Свежие анонсы мероприятий и новостей" FontSize="14" FontFamily="Roboto" TextColor="#FFFFFF" FontAttributes="Bold" />
+                            <Button Grid.Row="2" Text = "Посмотреть" FontSize="Medium" BorderWidth="1" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Clicked="EventsPageOpen" CornerRadius="8" BackgroundColor="#1B5F5B" BorderColor="#FFFFFF" TextColor="#FFFFFF" />
+
+                        </Grid>
+
+                        <Frame Grid.Column="1" Padding="0" CornerRadius="8" Margin="16,0,0,0">
+                            <Image Source="events.png" Aspect="AspectFill" />
+                        </Frame>
+
+                    </Grid>
+
+                </Frame>
+
+
+                <Frame BackgroundColor="#3B5662" Margin="18, 14" Grid.Row="2" HeightRequest="180" WidthRequest="324" CornerRadius="12" Padding="16,16,16,14" >
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="212*" />
+                            <ColumnDefinition Width="112*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Row="0" Text="Экскурсии" FontSize="24" FontFamily="Roboto" TextColor="#FFFFFF" FontAttributes="Bold" />
+                            <Label x:Name="label1" Grid.Row="1" Text="Тематические экскурсии и авторские программы" FontSize="14" FontFamily="Roboto" TextColor="#FFFFFF" FontAttributes="Bold" />
+                            <Button Grid.Row="2" Text = "Посмотреть" FontSize="Medium" BorderWidth="1" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Clicked="ExcursionsPageOpen" CornerRadius="8" BackgroundColor="#3B5662" BorderColor="#FFFFFF" TextColor="#FFFFFF" />
+
+                        </Grid>
+
+                        <Frame Grid.Column="1" Padding="0" CornerRadius="8" Margin="16,0,0,0">
+                            <Image Source="excursions.png" Aspect="AspectFill" />
+                        </Frame>
+
+                    </Grid>
+                </Frame>
+
+            </Grid>
+
+        </Grid>
+    </ScrollView>
+
+</ContentPage>

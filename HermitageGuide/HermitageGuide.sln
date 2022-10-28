@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HermitageGuide.Android", "HermitageGuide\HermitageGuide.Android\HermitageGuide.Android.csproj", "{327D17B2-8B6A-433A-9DA4-E3AD7F915BCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HermitageGuide", "HermitageGuide\HermitageGuide\HermitageGuide.csproj", "{EE552289-F12E-42EE-BEEA-1BC4D0E91EAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8783D075-265D-40B3-96F5-956AC5AC3A30}"
+	ProjectSection(SolutionItems) = preProject
+		HermitageGuide\HermitageGuide.Android\data.json = HermitageGuide\HermitageGuide.Android\data.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{327D17B2-8B6A-433A-9DA4-E3AD7F915BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327D17B2-8B6A-433A-9DA4-E3AD7F915BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327D17B2-8B6A-433A-9DA4-E3AD7F915BCD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{327D17B2-8B6A-433A-9DA4-E3AD7F915BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327D17B2-8B6A-433A-9DA4-E3AD7F915BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327D17B2-8B6A-433A-9DA4-E3AD7F915BCD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EE552289-F12E-42EE-BEEA-1BC4D0E91EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE552289-F12E-42EE-BEEA-1BC4D0E91EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE552289-F12E-42EE-BEEA-1BC4D0E91EAA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EE552289-F12E-42EE-BEEA-1BC4D0E91EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE552289-F12E-42EE-BEEA-1BC4D0E91EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE552289-F12E-42EE-BEEA-1BC4D0E91EAA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73C8EAD6-7261-4882-9552-0B9DB6E65AD2}
+	EndGlobalSection
+EndGlobal

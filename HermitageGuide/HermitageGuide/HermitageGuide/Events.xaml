@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HermitageGuide.Events" BackgroundColor="#FFFFFF" >
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+                    <Image Source="logo.png" />
+                </Grid>
+
+                <Grid Grid.Row="1">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Row="0" Text="Выставки и мероприятия" FontSize="30" FontFamily="Helvetica" TextColor="#000000" FontAttributes="Bold" Margin="30,20,30,5" />
+
+                    <Grid Grid.Row="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <Frame BackgroundColor="#DBEAEC" Grid.Row="0" Margin="14,14,14,14" HeightRequest="118" WidthRequest="330" CornerRadius="4" Padding="16" MinimumHeightRequest="118" MinimumWidthRequest="330">
+
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="220*" />
+                                    <ColumnDefinition Width="110*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Grid Grid.Column="0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="3*" />
+                                        <RowDefinition Height="1*" />
+                                    </Grid.RowDefinitions>
+
+                                    <Label Grid.Row="0" Text="Открытие выставки, приуроченной к Году Египта в России " FontSize="15" FontFamily="Roboto" TextColor="#263238"  />
+                                    <Label Grid.Row="1" Text="14 сентября 2022" FontSize="12" FontFamily="Roboto" TextColor="#8A263238" />
+
+                                </Grid>
+
+                                <Frame Grid.Column="1" Padding="0" CornerRadius="8" Margin="16,0,0,0">
+                                    <Image Source="egypt_year.jpg" Aspect="AspectFill" />
+                                </Frame>
+
+                            </Grid>
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="EventPageOpen" />
+                            </Frame.GestureRecognizers>
+
+                        </Frame>
+
+                        <Frame BackgroundColor="#DBEAEC" Grid.Row="1" Margin="14,14,14,14" HeightRequest="118" WidthRequest="330" CornerRadius="4" Padding="16" MinimumHeightRequest="118" MinimumWidthRequest="330">
+
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="220*" />
+                                    <ColumnDefinition Width="110*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Grid Grid.Column="0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="3*" />
+                                        <RowDefinition Height="1*" />
+                                    </Grid.RowDefinitions>
+
+                                    <Label Grid.Row="0" Text="Рождение современного искусства: выбор Сергея Щукина" FontSize="15" FontFamily="Roboto" TextColor="#263238"  />
+                                    <Label Grid.Row="1" Text="23 августа 2022" FontSize="12" FontFamily="Roboto" TextColor="#8A263238" />
+
+                                </Grid>
+
+                                <Frame Grid.Column="1" Padding="0" CornerRadius="8" Margin="16,0,0,0">
+                                    <Image Source="contemp_art.jpg" Aspect="AspectFill" />
+                                </Frame>
+
+                            </Grid>
+
+                        </Frame>
+
+                        <Frame BackgroundColor="#DBEAEC" Grid.Row="2" Margin="14,14,14,14" HeightRequest="118" WidthRequest="330" CornerRadius="4" Padding="16" MinimumHeightRequest="118" MinimumWidthRequest="330">
+
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="220*" />
+                                    <ColumnDefinition Width="110*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Grid Grid.Column="0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="3*" />
+                                        <RowDefinition Height="1*" />
+                                    </Grid.RowDefinitions>
+
+                                    <Label Grid.Row="0" Text="Стендовая выставка «К 300-летию учреждения Табели о рангах и геральдической службы»" FontSize="15" FontFamily="Roboto" TextColor="#263238"  />
+                                    <Label Grid.Row="1" Text="6 июня 2022" FontSize="12" FontFamily="Roboto" TextColor="#8A263238" />
+
+                                </Grid>
+
+                                <Frame Grid.Column="1" Padding="0" CornerRadius="8" Margin="16,0,0,0">
+                                    <Image Source="range_table.png" Aspect="AspectFill" />
+                                </Frame>
+
+                            </Grid>
+                        </Frame>
+
+                    </Grid>
+
+                </Grid>
+
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

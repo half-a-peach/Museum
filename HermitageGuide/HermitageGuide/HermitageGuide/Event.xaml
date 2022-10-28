@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HermitageGuide.Event" BackgroundColor="#FFFFFF">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+                    <Image Source="logo.png" />
+                </Grid>
+
+                <Grid Grid.Row="1">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Row="0" Text="Открытие выставки, приуроченной к Году Египта в России" FontSize="30" FontFamily="Helvetica" TextColor="#000000" FontAttributes="Bold" Margin="20,20,20,5" />
+
+                    <Label Grid.Row="1" Text="14 сентября 2021 года Государственный Эрмитаж, в рамках Года Египта в России, отмечает День Египта в Эрмитаже открытием двух выставок: «Египет в Эрмитаже. Мумия меняет имя» и «Египет в Эрмитаже" FontSize="Medium" FontFamily="Roboto" TextColor="#263238" Margin="20,10"  />
+
+                    <Frame Grid.Row="2" Margin="10,5" CornerRadius="5" Padding="0">
+                        <Image Source="mummy.png" Aspect="AspectFill" />
+                    </Frame>
+
+                    <Label Grid.Row="3" Text="Фрагмент резной панели с изображением животных и птиц. Египет, IV–V вв. Дерево. Поступил в 1889 г. Экспедиция В. Г. Бока в Египте." FontSize="Micro" FontFamily="Roboto" TextColor="#053D39" Margin="15,5" />
+
+                    <Label Grid.Row="4" Text="Этими выставками, посвящёнными Году Египта в России, Эрмитаж следует тенденции, выраженной созданием только что открывшегося Музея египетской цивилизации." FontSize="Small" FontFamily="Roboto" TextColor="#000000" Margin="15,5"  />
+
+                </Grid>
+
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
