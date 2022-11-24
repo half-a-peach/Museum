@@ -1,0 +1,23 @@
+﻿{
+
+  "EventCards": [
+    {
+      "Id": 1,
+      "EventCardTitle": "Открытие выставки, приуроченной к Году Египта в России",
+      "EventCardDate": "2022-09-14",
+      "EventCardPict": "egypt_year.png"
+    },
+    {
+      "Id": 2,
+      "EventCardTitle": "Рождение современного искусства: выбор Сергея Щукина",
+      "EventCardDate": "2022-08-23",
+      "EventCardPict": "contemp_art.png"
+    },
+    {
+      "Id": 3,
+      "EventCardTitle": "Стендовая выставка «К 300-летию учреждения Табели о рангах и геральдической службы»",
+      "EventCardDate": "2022-06-06",
+      "EventCardPict": "range_table.png"
+    }
+  ]
+}

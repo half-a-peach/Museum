@@ -672,4 +672,14 @@ C:\Users\blue\Desktop\HermitageGuide\HermitageGuide\HermitageGuide.Android\obj\D
 C:\Users\blue\Desktop\HermitageGuide\HermitageGuide\HermitageGuide.Android\obj\Debug\110\android\src\mono\androidx\preference\Preference_OnPreferenceClickListenerImplementor.java
 C:\Users\blue\Desktop\HermitageGuide\HermitageGuide\HermitageGuide.Android\obj\Debug\110\android\src\mono\com\google\android\material\navigation\NavigationBarView_OnItemReselectedListenerImplementor.java
 C:\Users\blue\Desktop\HermitageGuide\HermitageGuide\HermitageGuide.Android\obj\Debug\110\android\src\mono\com\google\android\material\navigation\NavigationBarView_OnItemSelectedListenerImplementor.java
-C:\Users\blue\Desktop\HermitageGuide\HermitageGuide\HermitageGuide.Android\obj\Debug\110\res\drawable\data.json
+C:\Users\blue\Desktop\HermitageGuide\HermitageGuide\HermitageGuide.Android\obj\Debug\110\res\drawable\landscape.jpg
+C:\Users\blue\Desktop\HermitageGuide\HermitageGuide\HermitageGuide.Android\obj\Debug\110\res\drawable\calendar.png
+C:\Users\blue\Desktop\HermitageGuide\HermitageGuide\HermitageGuide.Android\obj\Debug\110\res\drawable\place.png
+C:\Users\blue\Desktop\HermitageGuide\HermitageGuide\HermitageGuide.Android\obj\Debug\110\res\drawable\time.png
+C:\Users\blue\Desktop\HermitageGuide\HermitageGuide\HermitageGuide.Android\obj\Debug\110\android\assets\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\blue\Desktop\HermitageGuide\HermitageGuide\HermitageGuide.Android\obj\Debug\110\android\assets\System.Buffers.dll
+C:\Users\blue\Desktop\HermitageGuide\HermitageGuide\HermitageGuide.Android\obj\Debug\110\android\assets\System.Memory.dll
+C:\Users\blue\Desktop\HermitageGuide\HermitageGuide\HermitageGuide.Android\obj\Debug\110\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\blue\Desktop\HermitageGuide\HermitageGuide\HermitageGuide.Android\obj\Debug\110\android\assets\System.Text.Encodings.Web.dll
+C:\Users\blue\Desktop\HermitageGuide\HermitageGuide\HermitageGuide.Android\obj\Debug\110\android\assets\System.Text.Json.dll
+C:\Users\blue\Desktop\HermitageGuide\HermitageGuide\HermitageGuide.Android\obj\Debug\110\android\assets\System.Threading.Tasks.Extensions.dll

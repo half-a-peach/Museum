@@ -1,0 +1,18 @@
+﻿{
+  "ItemPages": [
+    {
+      "Id": 1,
+      "ItemPict": "lady_in_red.jpg",
+      "ItemAuthor": "Неизвестный испанский художник",
+      "ItemName": "Портрет дамы в красном платье",
+      "CreationTime": "XVIII в.",
+      "CreationPlace": "Испания",
+      "ItemSizes": "62х55 см",
+      "ItemMaterial": "холст",
+      "ItemTechnique": "масло",
+      "ItemAcquisition": "Поступил в 1931 г. Передан из всесоюзного объединения «Антиквариат»",
+      "ItemStockNumber": "ГЭ-7053",
+      "ItemCategory": "живопись"
+    }
+  ]
+}

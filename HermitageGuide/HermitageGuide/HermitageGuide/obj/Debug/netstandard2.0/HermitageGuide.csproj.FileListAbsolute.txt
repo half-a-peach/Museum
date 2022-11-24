@@ -18,3 +18,5 @@ C:\Users\blue\Desktop\HermitageGuide\HermitageGuide\HermitageGuide\obj\Debug\net
 C:\Users\blue\Desktop\HermitageGuide\HermitageGuide\HermitageGuide\obj\Debug\netstandard2.0\Excursions.xaml.g.cs
 C:\Users\blue\Desktop\HermitageGuide\HermitageGuide\HermitageGuide\obj\Debug\netstandard2.0\Exhibition.xaml.g.cs
 C:\Users\blue\Desktop\HermitageGuide\HermitageGuide\HermitageGuide\obj\Debug\netstandard2.0\Exhibitions.xaml.g.cs
+C:\Users\blue\Desktop\HermitageGuide\HermitageGuide\HermitageGuide\obj\Debug\netstandard2.0\Excursion.xaml.g.cs
+C:\Users\blue\Desktop\HermitageGuide\HermitageGuide\HermitageGuide\obj\Debug\netstandard2.0\Item.xaml.g.cs

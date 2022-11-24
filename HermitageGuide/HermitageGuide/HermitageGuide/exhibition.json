@@ -1,0 +1,31 @@
+﻿{
+  "ExhibitionPages": [
+    {
+      "Id": 2,
+      "ExhibitPageName": "Живопись Испании",
+      "ExhibitPagePict": "spain_paint.png",
+      "ItemCardList": [
+        {
+          "Id": 1,
+          "ItemCardName": "Портрет дамы в красном платье",
+          "ItemCardPict": "lady_in_red.png"
+        },
+        {
+          "Id": 2,
+          "ItemCardName": "Мужской портрет",
+          "ItemCardPict": "male_portrait.png"
+        },
+        {
+          "Id": 3,
+          "ItemCardName": "Христос Спаситель",
+          "ItemCardPict": "jesus.png"
+        },
+        {
+          "Id": 4,
+          "ItemCardName": "Портрет кавалера орден Сант Яго",
+          "ItemCardPict": "sant_jago.png"
+        }
+      ]
+    }
+  ]
+}

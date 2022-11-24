@@ -11,7 +11,30 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="data.json" />
+    <None Remove="event.json" />
+    <None Remove="events.json" />
+    <None Remove="excursion.json" />
+    <None Remove="excursions.json" />
+    <None Remove="exhibition.json" />
+    <None Remove="exhibitions.json" />
+    <None Remove="item.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="event.json" />
+    <EmbeddedResource Include="events.json" />
+    <EmbeddedResource Include="excursion.json" />
+    <EmbeddedResource Include="excursions.json" />
+    <EmbeddedResource Include="exhibition.json" />
+    <EmbeddedResource Include="exhibitions.json" />
+    <EmbeddedResource Include="item.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="7.0.0" />
+    <PackageReference Include="System.Text.Json" Version="7.0.0" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2515" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
   </ItemGroup>
@@ -23,6 +46,9 @@
     <EmbeddedResource Update="Events.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Excursion.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Excursions.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -30,6 +56,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Exhibitions.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Item.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

@@ -7,11 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HermitageGuide.Android", "H
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HermitageGuide", "HermitageGuide\HermitageGuide\HermitageGuide.csproj", "{EE552289-F12E-42EE-BEEA-1BC4D0E91EAA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8783D075-265D-40B3-96F5-956AC5AC3A30}"
-	ProjectSection(SolutionItems) = preProject
-		HermitageGuide\HermitageGuide.Android\data.json = HermitageGuide\HermitageGuide.Android\data.json
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\blue\\source\\repos\\Museum\\HermitageGuide\\HermitageGuide\\HermitageGuide\\HermitageGuide.csproj": {}
+    "C:\\Users\\blue\\Desktop\\HermitageGuide\\HermitageGuide\\HermitageGuide\\HermitageGuide.csproj": {}
   },
   "projects": {
-    "C:\\Users\\blue\\source\\repos\\Museum\\HermitageGuide\\HermitageGuide\\HermitageGuide\\HermitageGuide.csproj": {
+    "C:\\Users\\blue\\Desktop\\HermitageGuide\\HermitageGuide\\HermitageGuide\\HermitageGuide.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\blue\\source\\repos\\Museum\\HermitageGuide\\HermitageGuide\\HermitageGuide\\HermitageGuide.csproj",
+        "projectUniqueName": "C:\\Users\\blue\\Desktop\\HermitageGuide\\HermitageGuide\\HermitageGuide\\HermitageGuide.csproj",
         "projectName": "HermitageGuide",
-        "projectPath": "C:\\Users\\blue\\source\\repos\\Museum\\HermitageGuide\\HermitageGuide\\HermitageGuide\\HermitageGuide.csproj",
+        "projectPath": "C:\\Users\\blue\\Desktop\\HermitageGuide\\HermitageGuide\\HermitageGuide\\HermitageGuide.csproj",
         "packagesPath": "C:\\Users\\blue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\blue\\source\\repos\\Museum\\HermitageGuide\\HermitageGuide\\HermitageGuide\\obj\\",
+        "outputPath": "C:\\Users\\blue\\Desktop\\HermitageGuide\\HermitageGuide\\HermitageGuide\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -56,6 +56,14 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "System.Text.Encodings.Web": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

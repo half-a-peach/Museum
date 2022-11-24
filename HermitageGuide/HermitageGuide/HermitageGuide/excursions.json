@@ -1,0 +1,34 @@
+﻿{
+  "ExcursionCards": [
+    {
+      "Id": 1,
+      "ExcursCardName": "Искусство старых мастеров",
+      "ExcursCardPict": "old_masters_art.png"
+    },
+    {
+      "Id": 2,
+      "ExcursCardName": "Античные коллекции",
+      "ExcursCardPict": "antic_collect.png"
+    },
+    {
+      "Id": 3,
+      "ExcursCardName": "Искусство Голландии XVII века. Рембрандт",
+      "ExcursCardPict": "rembrand.png"
+    },
+    {
+      "Id": 4,
+      "ExcursCardName": "Собрание древностей",
+      "ExcursCardPict": "ancient_collection.png"
+    },
+    {
+      "Id": 5,
+      "ExcursCardName": "Восточные коллекции",
+      "ExcursCardPict": "orient_collection.png"
+    },
+    {
+      "Id": 6,
+      "ExcursCardName": "Искусство Италии эпохи Возрождения",
+      "ExcursCardPict": "reneissanse.png"
+    }
+  ]
+}

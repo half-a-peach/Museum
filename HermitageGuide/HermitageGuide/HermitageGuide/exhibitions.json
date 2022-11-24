@@ -1,0 +1,35 @@
+﻿{
+
+  "ExhibitionCards": [
+    {
+      "Id": 1,
+      "ExhibitCardName": "Древний Египет",
+      "ExhibitCardPict": "ancient_egypt.png"
+    },
+    {
+      "Id": 2,
+      "ExhibitCardName": "Живопись Испании",
+      "ExhibitCardPict": "spain_painting.png"
+    },
+    {
+      "Id": 3,
+      "ExhibitCardName": "Искусство Древней Греции",
+      "ExhibitCardPict": "greek_art.png"
+    },
+    {
+      "Id": 4,
+      "ExhibitCardName": "Культура и искусство Центральной Азии",
+      "ExhibitCardPict": "asian_art.png"
+    },
+    {
+      "Id": 5,
+      "ExhibitCardName": "Иcкусство Грузии",
+      "ExhibitCardPict": "georgian_art.png"
+    },
+    {
+      "Id": 6,
+      "ExhibitCardName": "Художественное убранство русского интерьера XIX – начала XX в.",
+      "ExhibitCardPict": "russian_interior.png"
+    }
+  ]
+}
