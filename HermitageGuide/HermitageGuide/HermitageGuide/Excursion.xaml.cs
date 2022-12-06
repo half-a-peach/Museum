@@ -34,7 +34,7 @@ namespace HermitageGuide
             ExcursionPage page = jsonContents.Find(a => a.Id == id);
 
             Grid grid = new Grid
-            {
+            { 
                 RowDefinitions =
                 {
                     new RowDefinition { Height = new GridLength(1, GridUnitType.Auto) },

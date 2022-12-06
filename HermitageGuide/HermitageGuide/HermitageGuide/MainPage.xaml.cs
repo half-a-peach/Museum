@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
+using HermitageGuide.Model;
 using System.Linq;
 using System.Text;
 using Xamarin.Forms;
@@ -20,13 +21,11 @@ namespace HermitageGuide
 
         public List<ExhibitionPage> ExhibitionPages { get; set; }
 
-        public List<ItemCard> ItemCards { get; set; }
-
         public List<EventPage> EventPages { get; set; }
 
         public List<ExcursionPage> ExcursionPages { get; set; }
 
-        public List<ItemPage> ItemPages { get; set; }
+        public List<ItemInfo> ItemInfos { get; set; }
     }
     public partial class MainPage : ContentPage
     {
@@ -34,7 +33,7 @@ namespace HermitageGuide
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
-
+            App.Database.CreateTable();
             //вылезает ошибка System.IO.FileNotFoundException: 'Could not find file "/data.json"
             //var jsonFile = "HermitageGuide.data.json";
             //var jsonString = System.IO.File.ReadAllText(jsonFile);

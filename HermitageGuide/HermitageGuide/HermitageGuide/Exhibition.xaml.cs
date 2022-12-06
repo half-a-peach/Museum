@@ -15,7 +15,10 @@ namespace HermitageGuide
     public partial class Exhibition : ContentPage
     {
         public List<ExhibitionPage> jsonContents { get; set; }
-        public List<ItemCard> ItemCards { get; set; }
+        //public List<ItemCard> ItemCards { get; set; }
+        public List<ItemInfo> pages { get; set; }
+
+        public int ExhibitId { get; set; }
 
         public Exhibition(int id)
         {
@@ -31,9 +34,9 @@ namespace HermitageGuide
                 var data = JsonConvert.DeserializeObject<RootProjects>(content);
                 jsonContents = data.ExhibitionPages;
             }
-
             ExhibitionPage page = jsonContents.Find(a => a.Id == id);
-            ItemCards = page.ItemCardList;
+
+            pages = App.Database.GetItems().FindAll(p => p.ExhibitionId == id);
 
             Grid BigGrid = new Grid 
             {
@@ -112,7 +115,7 @@ namespace HermitageGuide
             int x = 0, y = 0, row = 0;
             bool help = false, col = false;
 
-            foreach (ItemCard card in ItemCards)
+            foreach (ItemInfo card in pages)
             {
                 if (!help)
                 {
@@ -142,7 +145,7 @@ namespace HermitageGuide
                 grid.Children.Add(
                     new Image
                     {
-                        Source = card.ItemCardPict,
+                        Source = card.ItemPict,
                         Aspect = Aspect.AspectFill
                     }
                     );
@@ -153,7 +156,7 @@ namespace HermitageGuide
                 };
 
                 tap.Tapped += (s, e) => {
-                    ItemPageOpen(s, e, card.Id);
+                    ItemOpen(s, e, card.Id);
                 };
 
                 Image image = new Image { };
@@ -164,7 +167,7 @@ namespace HermitageGuide
 
                 grid.Children.Add(new Label
                 {
-                    Text = card.ItemCardName,
+                    Text = card.ItemName,
                     FontSize = 12,
                     TextColor = Color.White,
                     VerticalOptions = LayoutOptions.End,
@@ -187,7 +190,7 @@ namespace HermitageGuide
             exhigrid.Children.Add(BigGrid);
         }
 
-        private async void ItemPageOpen(object sender, System.EventArgs e, int id)
+        private async void ItemOpen(object sender, System.EventArgs e, int id)
         {
             await Navigation.PushAsync(new Item(id));
         }
@@ -196,11 +199,11 @@ namespace HermitageGuide
         {
             SearchBar searchBar = (SearchBar)sender;
 
-            List<ItemCard> searchResults = new List<ItemCard>();
+            List<ItemInfo> searchResults = new List<ItemInfo>();
 
-            foreach(ItemCard itemCard in ItemCards)
+            foreach(ItemInfo itemCard in pages)
             {
-                if(itemCard.ItemCardName.ToLower().Contains(searchBar.Text.ToLower()))
+                if(itemCard.ItemName.ToLower().Contains(searchBar.Text.ToLower()))
                 {
                     searchResults.Add(itemCard);
                 }
@@ -211,7 +214,7 @@ namespace HermitageGuide
             int x = 0, y = 0, row = 0;
             bool help = false, col = false;
 
-            foreach (ItemCard card in searchResults)
+            foreach (ItemInfo card in searchResults)
             {
                 if (!help)
                 {
@@ -241,7 +244,7 @@ namespace HermitageGuide
                 grid.Children.Add(
                     new Image
                     {
-                        Source = card.ItemCardPict,
+                        Source = card.ItemPict,
                         Aspect = Aspect.AspectFill
                     }
                     );
@@ -252,7 +255,7 @@ namespace HermitageGuide
                 };
 
                 tap.Tapped += (s, e1) => {
-                    ItemPageOpen(s, e1, card.Id);
+                    ItemOpen(s, e1, card.Id);
                 };
 
                 Image image = new Image { };
@@ -263,7 +266,7 @@ namespace HermitageGuide
 
                 grid.Children.Add(new Label
                 {
-                    Text = card.ItemCardName,
+                    Text = card.ItemName,
                     FontSize = 12,
                     TextColor = Color.White,
                     VerticalOptions = LayoutOptions.End,

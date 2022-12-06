@@ -19,6 +19,7 @@
     <None Remove="exhibition.json" />
     <None Remove="exhibitions.json" />
     <None Remove="item.json" />
+    <None Remove="MuseumDatabase.db" />
   </ItemGroup>
 
   <ItemGroup>
@@ -29,10 +30,12 @@
     <EmbeddedResource Include="exhibition.json" />
     <EmbeddedResource Include="exhibitions.json" />
     <EmbeddedResource Include="item.json" />
+    <EmbeddedResource Include="MuseumDatabase.db" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
     <PackageReference Include="System.Text.Encodings.Web" Version="7.0.0" />
     <PackageReference Include="System.Text.Json" Version="7.0.0" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2515" />

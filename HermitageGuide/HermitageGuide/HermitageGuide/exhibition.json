@@ -1,6 +1,43 @@
 ﻿{
   "ExhibitionPages": [
     {
+      "Id": 1,
+      "ExhibitPageName": "Древний Египет",
+      "ExhibitPagePict": "ancient_egypt.png",
+      "ItemCardList": [
+        {
+          "Id": 1,
+          "ItemCardName": "Амулет пирамидальный",
+          "ItemCardPict": "amulet_pyramidal.jpg"
+        },
+        {
+          "Id": 2,
+          "ItemCardName": "Скарабей с надписью",
+          "ItemCardPict": "scarab1.jpg"
+        },
+        {
+          "Id": 3,
+          "ItemCardName": "Скульптурная штудия головы одного из Птолемеев",
+          "ItemCardPict": "Ptolemy_head.jpg"
+        },
+        {
+          "Id": 4,
+          "ItemCardName": "Саркофаг Ит",
+          "ItemCardPict": "it_sarcophagus.jpg"
+        },
+        {
+          "Id": 5,
+          "ItemCardName": "Часть мумийной маски",
+          "ItemCardPict": "mummy_mask_part.jpg"
+        },
+        {
+          "Id": 6,
+          "ItemCardName": "Притолока гробницы Нисуирет Пиопи-Сенеба",
+          "ItemCardPict": "Nisuiret_tomb.jpg"
+        }
+      ]
+    },
+    {
       "Id": 2,
       "ExhibitPageName": "Живопись Испании",
       "ExhibitPagePict": "spain_paint.png",
@@ -22,7 +59,7 @@
         },
         {
           "Id": 4,
-          "ItemCardName": "Портрет кавалера орден Сант Яго",
+          "ItemCardName": "Портрет кавалера ордена Сант Яго",
           "ItemCardPict": "sant_jago.png"
         }
       ]

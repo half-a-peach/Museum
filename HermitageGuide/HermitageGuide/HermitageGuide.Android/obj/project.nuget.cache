@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "56yJbvc8THLJ51XUWdEvyefxtBt/VOlKOrD5fYAiFL/RsIzHaE+N1BbXg8PZhWLS+MxFkiXqpCtK82PyQk/fCw==",
+  "dgSpecHash": "CdJ/y7DsrJjgrYTblEvKp6GNb8/TJjG9R5qAB/3qVmU86wCvUTKJ4KR0NSQdFos/9lgejIR5qolFSl2m8jP7iQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\blue\\Desktop\\HermitageGuide\\HermitageGuide\\HermitageGuide.Android\\HermitageGuide.Android.csproj",
+  "projectFilePath": "C:\\Users\\blue\\Desktop\\mobile development\\HermitageGuide\\HermitageGuide\\HermitageGuide.Android\\HermitageGuide.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\blue\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\blue\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\blue\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
+    "C:\\Users\\blue\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
+    "C:\\Users\\blue\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
+    "C:\\Users\\blue\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.android\\2.0.4\\sqlitepclraw.lib.e_sqlite3.android.2.0.4.nupkg.sha512",
+    "C:\\Users\\blue\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.4\\sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\blue\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\blue\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\blue\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

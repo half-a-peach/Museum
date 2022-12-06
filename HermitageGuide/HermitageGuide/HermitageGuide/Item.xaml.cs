@@ -14,24 +14,13 @@ namespace HermitageGuide
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Item : ContentPage
     {
-        public List<ItemPage> jsonContents { get; set; }
-
         public Item(int id)
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
-
-            var assembly = IntrospectionExtensions.GetTypeInfo(typeof(Item)).Assembly;
-            var stream = assembly.GetManifestResourceStream("HermitageGuide.item.json");
-
-            using (StreamReader sr = new StreamReader(stream, Encoding.ASCII))
-            {
-                var content = sr.ReadToEnd();
-                var data = JsonConvert.DeserializeObject<RootProjects>(content);
-                jsonContents = data.ItemPages;
-            }
-
-            ItemPage page = jsonContents.Find(a => a.Id == id);
+            
+            List<ItemInfo> itemInfos = App.Database.GetItems();
+            ItemInfo page = itemInfos.Find(a => a.Id == id);
 
             Grid BigGrid = new Grid
             {
